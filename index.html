@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Aplicacion 1 - Giuliana Chamale</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>Calculadora</h1>
+        </div>
+
+        <div align="center">
+            <form method="POST" action="Operar.php">
+                <label>Valor 1: </label>
+                <input type="text" name="V1"/>
+                <br /><br />
+                <label>Valor 2: </label>
+                <input type="text" name="V2"/>
+                <br /><br />
+                <label>Elige operacion: </label>
+                <select class="form-control" id="Operar" name="Operacion">
+                    <option value="Suma">Suma</option>
+                    <option value="Resta">Resta</option>
+                    <option value="Multiplicacion">Multiplicacion</option>
+                    <option value="Division">Division</option>
+                </select>
+                <br /><br />
+                <input type="submit" value="Operar"/>
+            </form>
+
+        </div>
+    </body>
+</html>
